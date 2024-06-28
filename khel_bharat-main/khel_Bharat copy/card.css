@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-image: url('initial-image.jpg'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: background-image 0.3s ease 1s, background-color 0.3s ease 1s; /* Set transition delay to 1s */
+    position: relative;
+}
+
+.card:hover {
+    background-image: url('hover-image.jpg'); /* Replace with your hover image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Ensure the text is visible */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to enhance text visibility */
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    text-align: center;
+}
