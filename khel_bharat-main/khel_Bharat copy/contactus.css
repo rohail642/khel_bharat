@@ -75,12 +75,12 @@
 .contactForm{
     width: 40%;
     padding: 40px;
-    background-color: gray;
+    background-color: wheat;
     border-radius: 25px;
 }
 .contactForm h2{
     font-size: 30px;
-    color: white;
+    color: black;
     font-weight: 500;
 }
 .contactForm .inputBox{
@@ -99,7 +99,7 @@
 .contactForm .inputBox input,
 .contactForm .inputBox textarea
 {
-    background-color: gray ;
+    background-color: wheat ;
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
