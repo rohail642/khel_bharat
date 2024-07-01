@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
     animation: fadeInDown 2s ease;
 }
 .contact{
@@ -16,7 +15,6 @@
     align-items: center;
     flex-direction: column;
     background-size: cover;
-    background: url(images/pexel.jpg);
 }
 
 .contact .content {
@@ -24,11 +22,15 @@
     text-align: center;
 }
 .contact .content h2{
-    font-size: 36px;
-    font-weight: 500;
-    color: black;
+    margin-bottom: 40px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
 }
 .contact .content p{
+    font-size: 20px;
     font-weight: 300;
     color: black;
 }
@@ -70,12 +72,12 @@
 }
 .contact-container .contactInfo .box .text h3{
     font-weight: 500;
-    color: #EDDD5E;
+    color: black;
 }
 .contactForm{
     width: 40%;
     padding: 40px;
-    background-color: wheat;
+    background-color: white;
     border-radius: 25px;
 }
 .contactForm h2{
@@ -88,6 +90,9 @@
     width: 100%;
     margin-top: 10px;
 }
+.contact-container .contactForm{
+    margin-top: 30px;
+}
 .sendbutton{
     border-radius: 25px;
     transition: 0.3s ease;
@@ -99,7 +104,7 @@
 .contactForm .inputBox input,
 .contactForm .inputBox textarea
 {
-    background-color: wheat ;
+    background-color: white ;
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
