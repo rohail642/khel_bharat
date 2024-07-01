@@ -26,6 +26,7 @@ body {
 }
 
 .card:hover {
+    transform: scale(1.1);
     background-image: url('hover-image.jpg'); /* Replace with your hover image URL */
     background-size: cover;
     background-position: center;

@@ -8,5 +8,3 @@ document.addEventListener("DOMContentLoaded", function() {
     }, totalAnimationTime);
 });
 
-
-// this is js
